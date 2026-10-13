@@ -1,0 +1,14 @@
+# Install PyTorch first, matching your CUDA version (https://pytorch.org/get-started/locally/), e.g.
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+# Tested with Python 3.11, torch 2.6.0 (CUDA 12.4), timm 1.0.27, segmentation-models-pytorch 0.5.0,
+# albumentations 2.0.8, opencv 4.10, scipy 1.17, on an 8 GB RTX 4060.
+timm>=1.0
+segmentation-models-pytorch==0.5.0
+albumentations>=2.0
+opencv-python
+numpy
+scipy
+matplotlib
+huggingface_hub
+safetensors
+jupyter
